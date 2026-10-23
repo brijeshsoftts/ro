@@ -23,7 +23,7 @@ export function AmenityCard({
         <Icon className="h-40 w-40" strokeWidth={1} />
       </div>
 
-      <CardContent className="relative z-10 flex flex-col gap-4 p-8">
+      <CardContent className="relative z-10 flex flex-col gap-4 px-6 py-4">
         {/* Active Icon */}
         <div className="text-secondary">
           <Icon className="h-8 w-8" strokeWidth={2} />

@@ -1,6 +1,16 @@
+import {
+  CarFront,
+  Coffee,
+  Dumbbell,
+  Utensils,
+  Waves,
+  Wifi,
+} from "lucide-react";
+
 import type { AmenityCardProps } from "./components/AmenityCard";
 import type { RoomCardProps } from "./components/RoomCard";
 import type { TestimonialCardProps } from "./components/TestimonialsSection";
+
 export const testimonials: TestimonialCardProps[] = [
   {
     rating: 5,
@@ -65,15 +75,6 @@ export const rooms: RoomCardProps[] = [
   },
 ];
 
-import {
-  CarFront,
-  Coffee,
-  Dumbbell,
-  Utensils,
-  Waves,
-  Wifi,
-} from "lucide-react";
-
 export const amenities: AmenityCardProps[] = [
   {
     title: "Free Wi-Fi",
@@ -105,5 +106,38 @@ export const amenities: AmenityCardProps[] = [
     title: "Coffee Lounge",
     description: "Enjoy freshly brewed coffee in a comfortable setting.",
     Icon: Coffee,
+  },
+];
+
+export const faqs = [
+  {
+    question: "What time is check-in and check-out?",
+    answer:
+      "Standard check-in time is 3:00 PM, and check-out is at 11:00 AM. Early check-in or late check-out can be requested and is subject to availability.",
+  },
+  {
+    question: "What is the hotel's cancellation policy?",
+    answer:
+      "Our standard cancellation policy allows you to cancel your reservation up to 48 hours prior to arrival without penalty. Late cancellations may incur a fee equivalent to one night's stay.",
+  },
+  {
+    question: "Does the hotel have on-site restaurants?",
+    answer:
+      "Yes, we have three on-site dining options ranging from casual cafe fare to fine dining, all featuring locally sourced ingredients.",
+  },
+  {
+    question: "What types of rooms are available?",
+    answer:
+      "We offer a variety of rooms including standard guest rooms, deluxe suites with city views, and premium executive suites with separate living areas.",
+  },
+  {
+    question: "Is parking available at the hotel?",
+    answer:
+      "Yes, we offer both secure underground self-parking and 24/7 valet service for an additional daily fee.",
+  },
+  {
+    question: "Does the hotel have event or meeting spaces?",
+    answer:
+      "Absolutely. We have over 10,000 square feet of flexible meeting space, including a grand ballroom and intimate boardrooms equipped with modern AV technology.",
   },
 ];

@@ -5,7 +5,7 @@ import { FeatureMarquee } from "@/features/public/components/FeatureMarquee";
 import { RoomCard } from "@/features/public/components/RoomCard";
 import { SectionHeader } from "@/features/public/components/SectionHeader";
 import { TestimonialsSection } from "@/features/public/components/TestimonialsSection";
-// import { WhyChooseUs } from "@/features/public/components/WhyChooseUs";
+import { WhyChooseUs } from "@/features/public/components/WhyChooseUs";
 import { amenities, rooms } from "@/features/public/public.mock";
 
 export default function LandingPage() {
@@ -38,8 +38,8 @@ export default function LandingPage() {
         </section>
       </div>
       <FeatureMarquee />
-      {/* <WhyChooseUs /> */}
-      {/* <FeatureMarquee /> */}
+      <WhyChooseUs />
+      <FeatureMarquee />
       <TestimonialsSection />
       <FeatureMarquee />
       <FAQSection />

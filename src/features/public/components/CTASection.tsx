@@ -24,8 +24,8 @@ export function CTASection() {
           {/* Borderless Input */}
           <Input
             type="email"
-            placeholder="Enter Email Address"
-            className="h-10 rounded-full px-4"
+            placeholder="Enter Email Address "
+            className="h-10 rounded-full bg-card px-4"
           />
 
           {/* Subscribe Button */}
